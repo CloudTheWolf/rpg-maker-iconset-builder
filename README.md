@@ -21,28 +21,29 @@ var startRow = 0;
 
 ## Usage
 
-Download the script and either place in your Photoshop install path (Eg `C:\Program Files\adobe\Adobe Photoshop 2025\Presets\Scripts`) or somewhere safe (If you need to edit the config)
+Download the script and either place in your Photoshop install path (e.g. `C:\Program Files\adobe\Adobe Photoshop 2025\Presets\Scripts`) or somewhere safe (If you need to edit the config)
 
-Start by putting all your icons in a folder (eg `C:\RPGIcons`) and, split the icons into Sub-Folders. (Sub folders are optional but recommended)
+Start by putting all your icons in a folder (e.g. `C:\RPGIcons`) and split the icons into Sub-Folders. (Sub folders are optional but recommended)
 
-All icons should be PNG files, and be either a 1:1 ratio. 
+All icons should be PNG files and be a 1:1 ratio. 
 
-Next open your Iconset file in photoshop, or create a new file.
-Make sure the size of your Iconset is correct.
+Next open your Icon set file in Photoshop or create a new file.
+Make sure the size of your Icon set is correct.
 
-For VX Ace it should be 384px wide, with a hight divisible by 24 (Eg 14400px will give you 600 rows)
+For VX Ace it should be 384px wide, with a height divisible by 24 (e.g. 14400px will give you 600 rows)
 
-As an Optional step, go to View -> Guides -> New Guide Layout. set the columns to 16 and rows to the hight of your document divided by the icon size (Using the above example we'll have 600)
+As an Optional step, go to View -> Guides -> New Guide Layout. set the columns to 16 and rows to the height of your document divided by the icon size (Using the above example we'll have 600)
 
 Now that you have the document ready, and your icons saved, go to File -> Scripts -> Browse and load [import-icons.jsx](import-icons.jsx). (If you saved to Presets\Scripts it'll be in Scripts list)
 
-Next you'll be prompted to locate the folder containing the icons.
+Next, you'll be prompted to locate the folder containing the icons.
 
-Once you load the folder you will see Photoshop starting to Open the files, resize the image, and load the resized image into the Iconset document.
+Once you load the folder you will see Photoshop starting to Open the files, resize the image, and load the resized image into the Icon set document.
 If you split your icons into Sub-Directories these will be split into folders in photoshop.
 
-Once all icons are loaded a messagebox will say how many icons were loaded.
+Once all icons are loaded a message box will say how many icons were loaded.
 
-Ad this point you can move the icons arround to change the order as needed.
+At this point you can move the icons around to change the order as needed.
 
-For some icons, you may also need to add a 1px stroke to make the icon clearer 
+For some icons, you may also need to add a 1px stroke to make the icon clearer
+
